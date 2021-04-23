@@ -17,8 +17,8 @@ namespace ProblematicProblem
             Console.Write("Hello, welcome to the random activity generator! " +
                 "         \nWould you like to generate a random activity? yes/no: ");
             string ans = Console.ReadLine();
-
             bool cont = ans == "yes" ? true : false;
+            //bool cont = Console.ReadLine().ToLower == "yes";
 
             Console.WriteLine();
 
